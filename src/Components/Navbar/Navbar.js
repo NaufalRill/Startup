@@ -5,7 +5,7 @@ import hand from '../Assets/hand.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import { Link } from "react-router-dom"; 
+
 
 
 export default function Navbar() {
@@ -17,7 +17,7 @@ export default function Navbar() {
             <img src={Vector} alt=''/>
         </div>
         <ul className='nav-menu'>
-            <li><a as={Link} to="/dashboard">Home</a></li>
+            <li><a href='/#dashboard'>Home</a></li>
 
 
         </ul>
