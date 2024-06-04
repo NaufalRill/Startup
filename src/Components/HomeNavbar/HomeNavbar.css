@@ -119,3 +119,80 @@
     background-color: #010922;
     cursor: pointer;
 }
+
+.model{
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  text-align: center;
+}
+
+.close-button {
+  float: right;
+  border: none;
+  background-color: white;
+  font-size: 17px;
+}
+
+.close-button :hover {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.login-input {
+  width: 50%;
+    border: 0.5px solid;
+    padding-left: 15px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    color: #9DBFAF;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+}
+
+.model p {
+  padding-bottom: 60px;
+}
+
+.model a:visited {
+  color: blue;
+}
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  margin-top: 35px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
